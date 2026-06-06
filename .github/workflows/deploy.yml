@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npm run marp:html
+      - run: npm run build:html
 
       - name: Assemble site
         run: |

@@ -4,6 +4,7 @@
   },
   "scripts": {
     "marp:pdf": "marp slides.md -w --pdf --allow-local-files -o slides.pdf",
-    "marp:html": "marp slides.md -w -o slides.html"
+    "marp:html": "marp slides.md -w -o slides.html",
+    "build:html": "marp slides.md -o slides.html"
   }
 }
